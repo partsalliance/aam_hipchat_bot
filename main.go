@@ -166,7 +166,7 @@ func (c *Context) routes() *mux.Router {
 
 func main() {
 	var (
-		port    = flag.String("port", "8080", "web server port")
+		port    = flag.String("port", os.Getenv("PORT"), "web server port")
 		static  = flag.String("static", "./static/", "static folder")
 		baseURL = flag.String("baseurl", os.Getenv("BASE_URL"), "local base url")
 	)
