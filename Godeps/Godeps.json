@@ -1,0 +1,28 @@
+{
+	"ImportPath": "github.com/partsalliance/aam_hipchat_bot",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./"
+	],
+	"Deps": [
+		{
+			"ImportPath": "bitbucket.org/atlassianlabs/hipchat-golang-base/util",
+			"Rev": "bfd17310f565b35b551b57c09343757b1cc64e9c"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Rev": "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.3.0-5-g599cba5",
+			"Rev": "599cba5e7b6137d46ddf58fb1765f5d928e69604"
+		},
+		{
+			"ImportPath": "github.com/tbruyelle/hipchat-go/hipchat",
+			"Comment": "v1.2-13-gfc34536",
+			"Rev": "fc3453606408cfa87015e65ecb3309f9d1678317"
+		}
+	]
+}
