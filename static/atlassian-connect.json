@@ -7,8 +7,8 @@
         "url": "https://www.hipchat.com"
     },
     "links": {
-        "self": "{{.LocalBaseUrl}}/atlassian-connect.json",
-        "homepage": "{{.LocalBaseUrl}}/atlassian-connect.json"
+        "self": "https://{{.LocalBaseUrl}}/atlassian-connect.json",
+        "homepage": "https://{{.LocalBaseUrl}}/atlassian-connect.json"
     },
     "capabilities": {
         "hipchatApiConsumer": {
@@ -17,13 +17,13 @@
             ]
         },
         "installable": {
-            "callbackUrl": "{{.LocalBaseUrl}}/installable"
+            "callbackUrl": "https://{{.LocalBaseUrl}}/installable"
         },
         "configurable": {
-             "url": "{{.LocalBaseUrl}}/config"
+             "url": "https://{{.LocalBaseUrl}}/config"
         },
         "webhook": {
-            "url": "{{.LocalBaseUrl}}/hook",
+            "url": "https://{{.LocalBaseUrl}}/hook",
             "pattern": "^/test_hook",
             "event": "room_message",
             "name": "Golang Bot"
