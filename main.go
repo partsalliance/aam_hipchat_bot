@@ -134,7 +134,7 @@ func (c *Context) hook(w http.ResponseWriter, r *http.Request) {
 
 	log.Printf("Sending notification to %s\n", roomID)
 	notifRq := &hipchat.NotificationRequest{
-		Message:       "nice <strong>Happy Hook Day!</strong>",
+		Message:       "nice <strong>Happy Innovation Day!</strong>",
 		MessageFormat: "html",
 		Color:         "red",
 	}
